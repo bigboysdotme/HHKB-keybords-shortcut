@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background: #c7dbe5;
+}
+
+
+main{
+    text-align: center;
+}
+
+.keyboard-shell{
+    display: inline-block;
+    background:linear-gradient(to bottom, #e5e2e1, #f5f3f1, #e5e2e1);
+    padding: 30px 8px 13px 8px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2), inset 0 0 3px rgba(0,0,0,0.3)
+}
+
+
+.wipper{
+ 
+    background: #555555;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.key{
+    border: 1px solid black;
+    display: inline-block;
+    width: 5em;
+    height: 5em;
+    text-transform: uppercase;
+    position: relative;
+    background: #edeae9
+}
+
+.key .text{
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    position: relative;
+}
+
+.key img{
+    position: absolute;
+    left: 4px;
+    bottom:4px;
+}
+
+
+
+button{
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    border: 0;
+    background:rgba(255,255,255,0.1);
+    display: none;
+    font-size:8px;
+}
+
+kbd:hover > button{
+    display: inline-block; 
+}
+
+
+div{
+    position: relative;
+}
+
+.key{
+    width: 40px;
+    height: 45px;
+    margin: 2px;
+    border-width: 3px 7px 10px;
+    border-style: solid;
+    border-radius: 4px;
+    border-top-color: #e1ddd9;
+    border-bottom-color: #c7c2c2;
+    border-left-color: #d7d4cf;
+    border-right-color: #dad7d2;
+    text-align: left;
+}
+
+.key > img{
+    width: 16px;
+    height:16px;
+
+}
+
+.pressed{
+    transform: scale(0.95, 0.95);
+}
+
+
+.display1{
+    margin: 50px 0;
+}
+
+.display1>p{
+    height: 20px;
+}
+
+.second-keycap{
+    background: #cad1dc;
+    border-color: #c4c7cc #adb9cc #96a6bd;
+}
+
+.tab, .delete{
+    width: 66px;
+
+}
+
+.return, .control{
+    width:95px;
+}
+
+.shl{
+    width:114px;
+}
+
+.shr{
+    width:77px;
+}
+
+.fn{
+    width:38px;
+    
+}
+
+.esc{
+    width:92px;
+}
